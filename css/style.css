@@ -22,3 +22,12 @@ table, td {
     border: 1px solid black;
     padding: 5px;
 }
+/*
+styling the total rows and cols
+*/
+#rowss,#colss{
+    color: blue;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
