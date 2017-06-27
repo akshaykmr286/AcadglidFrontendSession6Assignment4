@@ -1,0 +1,24 @@
+
+/*
+styling the main div with some padding margin aand color
+*/
+#maindiv{
+    background-color: azure;
+    width: 50%;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10% 31% 10%;
+}
+/*
+styling the h5 for NOTE
+*/
+h5{
+    color:brown;
+}
+/*
+Styling the dynamic table
+*/
+table, td {
+    border: 1px solid black;
+    padding: 5px;
+}
