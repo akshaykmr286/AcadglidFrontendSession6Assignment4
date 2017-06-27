@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Session6 Ass4</title>
+        <!-- modify the style.css inside css folder -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Main Div started-->
+        <div id="maindiv">
+            <h2>Dynamic table of 2*2 : </h2><hr>
+            <h5>NOTE: 
+                <br>1. The table is of 2 rows and 2 cols
+                <br>2. Click the Create row button to create rows
+                <br>3. Click the Delete row to delete the row
+            </h5>
+            <!--Table for Will Come Here -->
+            <table id="dynamicTable" align="center">
+              <tr>
+                <td>Row1 cell1</td>
+                <td>Row1 cell2</td>
+              </tr>
+              <tr>
+                <td>Row2 cell1</td>
+                <td>Row2 cell2</td>
+              </tr>
+              <tr>
+                <td>Row3 cell1</td>
+                <td>Row3 cell2</td>
+              </tr>
+            </table>
+            <br>
+            <div align="center">
+                <button onclick="create_Row()">Create row</button>
+                <button onclick="deleteRow()">Delete row</button>
+            </div>
+        </div>
+        <!-- javascript codes are written in main.js file of js folder -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
